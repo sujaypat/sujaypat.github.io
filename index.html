@@ -13,6 +13,9 @@
   <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 </head>
 <body>
   <div id="wrap">
@@ -40,49 +43,6 @@
         </ul>
 
         <div class="tab-content">
-          <div class="tab-pane" id="projects">
-			<!--
-            <div class="row">
-              <span class="slide1">
-                <div class="col-md-4">
-                  <div class="img-slide" data-id="1">
-                    <img src="img/convrtr_icon.png" class="img-thumbnail" data-id="1">
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="img-slide" data-id="2">
-                    <img src="img/pic01.png" class="img-thumbnail" data-id="2">
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="img-slide" data-id="3">
-                    <img src="img/vycinity.png" class="img-thumbnail" data-id="3">
-                  </div>
-                </div>
-              </span>
-
-              <span class="slide2">
-                <div class="col-md-4">
-                  <div class="img-slide" data-id="4">
-                    <img src="img/simplex_vectorized.png" class="img-thumbnail" data-id="4">
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="img-slide" data-id="5">
-                    <img src="img/black-icon.png" class="img-thumbnail" data-id="5">
-                  </div>
-                </div>
-              </span>
-            </div> -->
-
-            <!-- <center>
-              <i class="fa fa-circle fa-circle-1"></i>
-              <i class="fa fa-circle-o fa-circle-2"></i>
-            </center> -->
-            </div>
           </div>
 
           <div class="tab-pane active wrapper home-text" id="home">
@@ -94,9 +54,7 @@
                 <span style="font-size: 18px">
                 <p>
 					Me too thanks
-                  <!-- I'm Sujay, a web & mobile developer based in Silicon Valley. I do work in Java with Android & Swift with iOS. I use JavaScript and do scripting in ruby. -->
                 </p>
-
                 <p>
                    I currently attend <a style="cursor: pointer;" onclick="window.location.href='http://www.illinois.edu/'" class="dotty">The University of Illinois at Urbana-Champaign</a> as a junior. <!--and worked at <a style="cursor: pointer;" onclick="window.location='http://cirrosecure.com/'" class="dotty">Cirrosecure</a> as a QA/Automation intern. -->
                 </p>
@@ -113,7 +71,6 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3"></div>
     </div>
   </div>
 
@@ -140,66 +97,6 @@
 
   <script src="js/particles.min.js"></script>
   <script src="js/app.js"></script>
-  <!-- $.getScript("js/app.js"); -->
-
-  <!-- <script type="text/javascript">
-
-    $('#home').click(function (e) {
-      e.preventDefault();
-      $(this).tab('show');
-      $('#projects').tab('hide');
-    });
-
-    $('#projects').click(function (e) {
-      e.preventDefault();
-      $(this).tab('show');
-    });
-
-    $('.panel-body').hide();
-    $("#proj1").show();
-
-    $('.slide2').hide();
-
-    $('.img-thumbnail[data-id=1]').addClass('img-active');
-
-    $('.img-slide').click(function() {
-      id = $(this).attr("data-id");
-
-      $('.img-thumbnail').removeClass('img-active');
-      $('.img-thumbnail[data-id=' + id + ']').addClass('img-active');
-
-      $('.panel-body').hide();
-      $("#proj" + id).fadeIn();
-    });
-
-    $('.fa-circle-1').click(function() {
-      $('.panel-body').hide();
-      $("#proj1").fadeIn();
-
-      $('.slide2').hide();
-      $('.slide1').fadeIn();
-
-      $('.img-thumbnail').removeClass('img-active');
-      $('.img-thumbnail[data-id=1]').addClass('img-active');
-
-      $('.fa-circle-2').removeClass('fa-circle').addClass('fa-circle-o');
-      $('.fa-circle-1').removeClass('fa-circle-o').addClass('fa-circle');
-    });
-
-    $('.fa-circle-2').click(function() {
-      $('.panel-body').hide();
-      $("#proj4").fadeIn();
-
-      $('.slide1').hide();
-      $('.slide2').fadeIn();
-
-      $('.img-thumbnail').removeClass('img-active');
-      $('.img-thumbnail[data-id=4]').addClass('img-active');
-
-      $('.fa-circle-1').removeClass('fa-circle').addClass('fa-circle-o');
-      $('.fa-circle-2').removeClass('fa-circle-o').addClass('fa-circle');
-    });
-  </script> -->
 
 </body>
 </html>
