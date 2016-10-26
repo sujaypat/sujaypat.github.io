@@ -1,5 +1,5 @@
 /* ---- particles.js config ---- */
-
+/*
 particlesJS.load('particles-js', 'particles.js-master/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
@@ -114,10 +114,10 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
-
+*/
 
 /* ---- stats.js config ---- */
-
+/*
 var count_particles, stats, update;
 stats = new Stats();
 stats.setMode(0);
@@ -135,3 +135,4 @@ update = function() {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+*/
